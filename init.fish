@@ -63,7 +63,7 @@ __git_abbr gfm        "git fetch origin master --prune; and git merge FETCH_HEAD
 __git_abbr gfo        git fetch origin
 __git_abbr gl         git pull
 __git_abbr gll        git pull origin
-__git_abbr glr        git pull --rebase
+__git_abbr gfr        git pull --rebase
 __git_abbr glg        git log --stat --max-count=10
 __git_abbr glgg       git log --graph --max-count=10
 __git_abbr glgga      git log --graph --decorate --all
@@ -75,7 +75,7 @@ __git_abbr gloo       "git log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%
 __git_abbr gm         git merge
 __git_abbr gmt        git mergetool --no-prompt
 __git_abbr gp         git push
-__git_abbr gp!        git push --force-with-lease
+__git_abbr gpf        git push --force-with-lease
 __git_abbr gpo        git push origin
 __git_abbr gpo!       git push --force-with-lease origin
 __git_abbr gpv        git push --no-verify
@@ -129,14 +129,13 @@ __git_abbr gwch       git whatchanged -p --abbrev-commit --pretty=medium
 
 # git checkout abbreviations
 __git_abbr gco        git checkout
-__git_abbr gcb        git checkout -b
+__git_abbr gbc        git checkout -b
 __git_abbr gcod       git checkout develop
 __git_abbr gcom       git checkout master
 
 # git flow abbreviations
 __git_abbr gfb        git flow bugfix
 __git_abbr gff        git flow feature
-__git_abbr gfr        git flow release
 __git_abbr gfh        git flow hotfix
 __git_abbr gfs        git flow support
 
