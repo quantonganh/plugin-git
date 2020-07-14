@@ -61,7 +61,7 @@ __git_abbr gf         git fetch
 __git_abbr gfa        git fetch --all --prune
 __git_abbr gfm        "git fetch origin master --prune; and git merge FETCH_HEAD"
 __git_abbr gfo        git fetch origin
-__git_abbr gl         git pull
+__git_abbr gl         git log
 __git_abbr gll        git pull origin
 __git_abbr gfr        git pull --rebase
 __git_abbr glg        git log --stat --max-count=10
